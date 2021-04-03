@@ -15,12 +15,17 @@
    
     <body>
     <div class='container' id = 'cont' >
+    <header>
     <h1>Findely i start to create of my lesson site!</h1>
+    </header>
+
     <nav style = " border : 2px solid yellowgreen;text-align: center">
     <a href='/start_page' style = " border : 2px solid black">start page</a>
-    <a href='/simple_tab' style = " border : 2px solid black">simple_tab</a>
-    <a href='/color_tab' style = " border : 2px solid black">color_tab</a>
+    <a href='/simple_tab' style = " border : 2px solid black">урок 1</a>
+    <a href='/color_tab' style = " border : 2px solid black">урок 2</a>
     </nav>
+
+    <main>
         
     @if(!empty($sq_tab))
         <div class = 'row '> 
@@ -122,6 +127,8 @@
 
 
 </div>
+
+</main>
 
 <div class="row1"style = "text-align:center ; border : 3px solid red">
 <h3>This is a footer</h3>
