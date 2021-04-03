@@ -16,9 +16,11 @@
     <body>
     <div class='container' id = 'cont' >
     <h1>Findely i start to create of my lesson site!</h1>
-    <a href='/simple_tab'>simple_tab</a>
-    <a href='/color_tab'>color_tab</a>
-
+    <nav style = " border : 2px solid yellowgreen;text-align: center">
+    <a href='/start_page' style = " border : 2px solid black">start page</a>
+    <a href='/simple_tab' style = " border : 2px solid black">simple_tab</a>
+    <a href='/color_tab' style = " border : 2px solid black">color_tab</a>
+    </nav>
         
     @if(!empty($sq_tab))
         <div class = 'row '> 
@@ -119,9 +121,11 @@
    @endif             
 
 
-          
-          
-    </div>
+</div>
+
+<div class="row1"style = "text-align:center ; border : 3px solid red">
+<h3>This is a footer</h3>
+</div>
     <script>
  id=1;
  for(id = 1; id < 101; id++){
