@@ -148,6 +148,10 @@
 @endif
 
 @if(!empty($revers))
+
+<p>Ваш рядок : </p>
+<p>{{ $avers }}</p>
+<p>Ваш рядок з кінця до початку : </p>
 <p>{{ $revers }}</p>
 @endif
 
