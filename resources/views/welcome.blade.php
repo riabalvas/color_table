@@ -153,6 +153,8 @@
 <p>{{ $avers }}</p>
 <p>Ваш рядок з кінця до початку : </p>
 <p>{{ $revers }}</p>
+
+<a class="btn btn-outline-primary" href="/back" role="button">назад</a>
 @endif
 
 

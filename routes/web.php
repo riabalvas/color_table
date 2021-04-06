@@ -23,5 +23,6 @@ Route::get('/simple_tab', [SimpleTab::class,'simple_tab']);
 Route::get('/color_tab', [ ColorTab :: class , 'color_tab' ] );
 Route::get('/form', [ Answer :: class , 'answer' ] );
 Route::post('/submit', [ Work_form :: class , 'work' ] );
+Route::get('/back', [ Answer :: class , 'answer' ] );
 
 
