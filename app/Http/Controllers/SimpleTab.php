@@ -26,7 +26,7 @@ class SimpleTab extends Controller
     }
 
     // var_dump($tab);
-  return view('welcome', ['tab' => $tab, 'sq_tab' => $sq_tab]);
+  return view('welcome', ['tab' => $tab, 'sq_tab' => $sq_tab,'print_form' => "false"]);
 
 }
 }

@@ -39,7 +39,7 @@ class ColorTab extends Controller
                
                 
         }
-        return view('welcome', ['painted_tab' => $painted_tab, 'pt' => $pt]);
+        return view('welcome', ['painted_tab' => $painted_tab, 'pt' => $pt,'print_form' => "false"]);
     }
 
          

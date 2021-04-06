@@ -23,7 +23,8 @@
     <nav style = " border : 2px solid yellowgreen;text-align: center">
     <a href='/start_page' style = " border : 2px solid black">start page</a>
     <a href='/simple_tab' style = " border : 2px solid black">урок 1</a>
-    <!-- <a href='/color_tab' style = " border : 2px solid black">урок 2</a> -->
+    <a href='/color_tab' style = " border : 2px solid black">урок 2</a>
+    <a href='/form' style = " border : 2px solid black">урок 3</a>
     </nav>
 
     <main>
@@ -127,10 +128,28 @@
 
    @endif 
 
+   
+
    </main>
 
 </div>
 
+@if($print_form == "true")
+
+<div>
+        <form action='/submit' method = 'POST'>    
+            @csrf      
+            <p><b>Будь ласка, введіть текстовий рядок.</b></p>    
+            <textarea name='comment' cols='40' rows='1'></textarea></p>    
+            <p><input type='submit'></p>    
+            </form> 
+    </div> 
+
+@endif
+
+@if(!empty($revers))
+<p>{{ $revers }}</p>
+@endif
 
 
 <div class="row1"style = "text-align:center ; border : 3px solid red">
